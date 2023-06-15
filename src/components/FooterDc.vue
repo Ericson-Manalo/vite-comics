@@ -119,7 +119,7 @@
             </div>
 
             <div class="logo-item">
-                <img src="../assets/images/img/dc-logo-bg.png" alt="">
+                
             </div>
         </div>
 
@@ -161,11 +161,16 @@ div h3{
 
 ul.list li{
     margin-bottom: .3rem;
-    font-size: .8rem;
+    font-size: .9rem;
+    color: $darkText;
 }
 
-div.logo-item img{
-
+div.logo-item{
+    height: 100%;
+    width: 563px;
+    background-image: url('../assets/images/img/dc-logo-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
