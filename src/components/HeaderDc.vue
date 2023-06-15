@@ -48,18 +48,14 @@ export default{
             width: 1100px;
             height: 100px;
             @include centering(space-between, center);
-            padding: 1rem;
-
-
-
         }
 
     }
 
     div.header-section img{
-                width: 75px;
-                height: 75px;
-            }
+        width: 75px;
+        height: 75px;
+    }
 
     nav ul{
         display: flex;
