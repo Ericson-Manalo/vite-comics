@@ -23,11 +23,19 @@ nav ul li{
     font-size: 0.9rem;
 }
 
+nav ul li.active{
+    color: $lightblue;
+}
+
 .flex{
     display: flex;
 }
 
 .margin-right{
     margin-right: 2rem;
+}
+
+.margin-top{
+    margin-top: 1.2rem;
 }
 
