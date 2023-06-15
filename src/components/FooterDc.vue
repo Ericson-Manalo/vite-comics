@@ -41,7 +41,7 @@
                             </li>
                         </ul>
 
-                        <h3>
+                        <h3 class="margin-top">
                             SHOP
                         </h3>
                         <ul class="list">
