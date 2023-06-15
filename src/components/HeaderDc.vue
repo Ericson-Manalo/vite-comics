@@ -4,7 +4,7 @@
 
 <template>
     <header>
-        <div class="logo">
+        <div class="header-section">
             <img src="../assets/images/img/dc-logo.png" alt="Dc Main Logo">
             <nav class="nav-bar">
             <ul>
@@ -37,15 +37,14 @@
         display: flex;
         justify-content: center;
     
-        div.logo{
+        div.header-section{
             width: 1100px;
             height: 100px;
             background-color: aqua;
-
             @include centering(space-between, center);
 
 
-            div.logo img{
+            div.header-section img{
                 width: 100px;
                 height: 100px;
             }
