@@ -14,11 +14,11 @@
     <footer>
         <div class="upper-footer">
             <div class="list-item">
-                <div>
+                <div class="margin-right">
                     <h3>
                         DC COMICS
                     </h3>
-                    <ul>
+                    <ul class="list">
                         <li>
                             Characters
                         </li>
@@ -43,7 +43,7 @@
                     <h3>
                         SHOP
                     </h3>
-                    <ul>
+                    <ul class="list">
                         <li>
                             Shop DC
                         </li>
@@ -53,11 +53,11 @@
                     </ul>
                 </div>
 
-                <div>
+                <div class="margin-right">
                     <h3>
                         DC
                     </h3>
-                    <ul>
+                    <ul class="list">
                         <li>
                             Term Of Use
                         </li>
@@ -98,7 +98,7 @@
                     <h3>
                         SITES
                     </h3>
-                    <ul>
+                    <ul class="list">
                         <li>
                             DC
                         </li>
@@ -117,11 +117,13 @@
                     </ul>
                 </div>
             </div>
-            <div>
 
+            <div class="logo-item">
+                <img src="../assets/images/img/dc-logo-bg.png" alt="">
             </div>
         </div>
-        <div>
+
+        <div class="lower-footer">
 
         </div>
     </footer>
@@ -134,19 +136,36 @@
 
 footer{
     background-image: url('../assets/images/img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     color: $whiteText;
-
-
+    height: 380px;
 }
 
 footer div.upper-footer{
         width: 1100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 }
 
 div.list-item{
-display: flex;
+    display: flex;
+}
+
+div h3{
+    padding-bottom: 1rem;
+}
+
+ul.list li{
+    margin-bottom: .3rem;
+    font-size: .8rem;
+}
+
+div.logo-item img{
+
 }
 
 
