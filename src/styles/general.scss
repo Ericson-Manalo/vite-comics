@@ -1,11 +1,18 @@
 @use '../styles/partials/mixins' as*;
 @use '../styles/partials/variables' as*;
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 ul {
     list-style: none;
 }
 
-ul li{
+nav ul li{
     text-transform: uppercase;
     margin-right: 1rem;
+    font-size: 0.8rem;
 }
