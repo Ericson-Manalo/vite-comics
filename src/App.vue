@@ -1,6 +1,7 @@
 <script>
 import HeaderDc from './components/HeaderDc.vue'
 import MainDc from './components/MainDc.vue'
+import SectionDc from './components/SectionDc.vue'
 import FooterDc from './components/FooterDc.vue'
 
 export default{
@@ -8,6 +9,7 @@ export default{
   components:{
     HeaderDc,
     MainDc,
+    SectionDc,
     FooterDc
   }
 }
@@ -16,6 +18,7 @@ export default{
 <template>
   <HeaderDc/>
   <MainDc/>
+  <SectionDc/>
   <FooterDc/>
 
 </template>
