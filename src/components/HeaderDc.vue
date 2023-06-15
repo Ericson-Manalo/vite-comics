@@ -1,5 +1,13 @@
 <script>
 
+export default{
+    name: 'AppHeader',
+    data(){
+        return{
+
+        }
+    }
+}
 </script>
 
 <template>
@@ -49,8 +57,8 @@
     }
 
     div.header-section img{
-                width: 70px;
-                height: 70px;
+                width: 75px;
+                height: 75px;
             }
 
     nav ul{
