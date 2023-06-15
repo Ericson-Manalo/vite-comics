@@ -30,7 +30,6 @@
 
 @use '../styles/partials/mixins' as *;
 @use '../styles/partials/variables' as *;
-@import '../styles/general.scss';
 
 
     header{
@@ -40,18 +39,19 @@
         div.header-section{
             width: 1100px;
             height: 100px;
-            background-color: aqua;
             @include centering(space-between, center);
+            padding: 1rem;
 
 
-            div.header-section img{
-                width: 100px;
-                height: 100px;
-            }
+
         }
 
     }
 
+    div.header-section img{
+                width: 70px;
+                height: 70px;
+            }
 
     nav ul{
         display: flex;
