@@ -4,8 +4,50 @@ export default{
     name: 'AppHeader',
     data(){
         return{
+            navbarLinks:[
+                {
+                    text: 'Characters',
+                    active: false
+                },
+                {
+                    text: 'Comics',
+                    active: true
+                },
+                {
+                    text: 'Movies',
+                    active: false
+                },
+                {
+                    text: 'Tv',
+                    active: false
+                },
+                {
+                    text: 'Games',
+                    active: false
+                },
+                {
+                    text: 'Collectibles',
+                    active: false
+                },
+                {
+                    text: 'Videos',
+                    active: false
+                },
+                {
+                    text: 'Fans',
+                    active: false
+                },
+                {
+                    text: 'News',
+                    active: false
+                },
+                {
+                    text: 'Shop',
+                    active: false
+                }
 
-        }
+        ]
+    }
     }
 }
 </script>
@@ -16,16 +58,10 @@ export default{
             <img src="../assets/images/img/dc-logo.png" alt="Dc Main Logo">
             <nav class="nav-bar">
             <ul>
-                <li>Characters</li>
-                <li>Comics</li>
-                <li>Movies</li>
-                <li>Tv</li>
-                <li>Games</li>
-                <li>Collectibles</li>
-                <li>Videos</li>
-                <li>Fans</li>
-                <li>News</li>
-                <li>Shop</li>
+                <li v-for="link in navbarLinks" :class="link.active ? 'active' : ''">
+                    {{ link.text }}
+                </li>
+
             </ul>
         </nav>
         </div>
