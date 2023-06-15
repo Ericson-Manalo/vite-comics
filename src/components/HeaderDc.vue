@@ -6,9 +6,7 @@
     <header>
         <div class="logo">
             <img src="../assets/images/img/dc-logo.png" alt="Dc Main Logo">
-        </div>
-
-        <nav class="nav-bar">
+            <nav class="nav-bar">
             <ul>
                 <li>Characters</li>
                 <li>Comics</li>
@@ -22,6 +20,9 @@
                 <li>Shop</li>
             </ul>
         </nav>
+        </div>
+
+        
     </header>
 </template>
 
@@ -41,12 +42,20 @@
             height: 100px;
             background-color: aqua;
 
+            @include centering(space-between, center);
+
+
             div.logo img{
                 width: 100px;
                 height: 100px;
             }
         }
 
+    }
+
+
+    nav ul{
+        display: flex;
     }
 
 </style>
