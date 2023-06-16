@@ -13,6 +13,8 @@ export default{
 
 <template>
     <main>
+        <div class="jumbotron">
+        </div>
         <div class="main-content">
             <h1>
             - - Content goes here - -
@@ -26,10 +28,7 @@ export default{
 @use '../styles/partials/variables' as *;
 
 main{
-    display: flex;
-    justify-content: center;
     background-color: $darkBg;
-    padding: 3rem;
 
     div.main-content{
         width: 1100px;
@@ -38,6 +37,13 @@ main{
 
 h1{
     color: $whiteText;
+}
+
+div.jumbotron{
+    background-image: url('../assets/images/img/jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
 }
 
 
