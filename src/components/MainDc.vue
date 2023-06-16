@@ -53,7 +53,7 @@ main{
 h2{
     position: absolute;
     left: 20%;
-    bottom: 64%;
+    bottom: 57%;
     color: $whiteText;
     font-size: 1.6rem;
     background-color: $lightblue;
@@ -69,7 +69,7 @@ div.jumbotron{
     background-image: url('../assets/images/img/jumbotron.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    height: 430px;
 }
 
 div.load-btn{

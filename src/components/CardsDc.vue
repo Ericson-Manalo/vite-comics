@@ -103,7 +103,7 @@ export default {
 @use '../styles/partials/variables' as *;
 
 section.main-section{
-    width: 1100px;
+    width: 1200px;
     background-color: $darkBg;
 }
 

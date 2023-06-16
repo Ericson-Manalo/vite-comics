@@ -63,14 +63,14 @@ section{
 }
 
 div.main-section{
-    width: 1100px;
+    width: 1200px;
     display: flex;
     justify-content: space-around;
     padding: 3rem 0;
 }
 
 div.item-container img{
-    width: 1100px;
+    width: 1200px;
     width: 42px;
     height: 50px;
 }

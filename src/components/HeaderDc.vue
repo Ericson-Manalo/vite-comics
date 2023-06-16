@@ -81,7 +81,7 @@ export default{
         justify-content: center;
     
         div.header-section{
-            width: 1100px;
+            width: 1200px;
             height: 100px;
             @include centering(space-between, center);
         }

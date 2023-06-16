@@ -177,7 +177,7 @@ footer{
 }
 
 div.upper-footer{
-        width: 1100px;
+        width: 1200px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -214,7 +214,7 @@ div.lower-side{
 }
 
 div .lower-footer{
-    width: 1100px;
+    width: 1200px;
     @include centering(space-between, center);
     display: flex;
     color: $whiteText;
