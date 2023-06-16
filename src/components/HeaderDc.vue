@@ -85,7 +85,6 @@ export default{
             height: 100px;
             @include centering(space-between, center);
         }
-
     }
 
     div.header-section img{
@@ -96,5 +95,10 @@ export default{
     nav ul{
         display: flex;
     }
+
+    nav ul li:active{
+        cursor:auto;
+        color: $lightblue;
+}
 
 </style>
