@@ -48,14 +48,13 @@ export default{
     </section>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 @use '../styles/partials/mixins' as *;
 @use '../styles/partials/variables' as *;
 
 section{
     display: flex;
-    height: 160px;
     background-color:$lightblue;
     display: flex;
     @include centering(center, center);
@@ -67,6 +66,7 @@ div.main-section{
     width: 1100px;
     display: flex;
     justify-content: space-around;
+    padding: 3rem 0;
 }
 
 div.item-container img{
