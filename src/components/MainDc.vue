@@ -2,7 +2,7 @@
 import CardsDc from './CardsDc.vue';
 
 export default{
-    name: 'Appmain',
+    name: 'MainDc',
     data(){
         return{
 
@@ -20,11 +20,7 @@ export default{
         <div class="jumbotron">
         </div>
         <div class="main-content">
-            <h1>
-            - - Content goes here - -
-            </h1>
-
-            <CardDc/>
+            <CardsDc/>
         </div>
     </main>
 </template>
@@ -37,7 +33,9 @@ main{
     background-color: $darkBg;
 
     div.main-content{
-        width: 1100px;
+        display: flex;
+        justify-content: center;
+        padding: 3rem 0;
     }
 }
 
