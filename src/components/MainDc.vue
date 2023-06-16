@@ -52,7 +52,7 @@ main{
 
 h2{
     position: absolute;
-    left: 5%;
+    left: 20%;
     bottom: 64%;
     color: $whiteText;
     font-size: 1.6rem;
