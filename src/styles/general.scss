@@ -11,6 +11,7 @@
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    min-width: 800px;
 }
 
 ul {
@@ -21,10 +22,6 @@ nav ul li{
     text-transform: uppercase;
     margin-right: 1rem;
     font-size: 0.9rem;
-}
-
-nav ul li.active{
-    color: $lightblue;
 }
 
 .flex{
