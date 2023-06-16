@@ -22,6 +22,16 @@ export default{
         <div class="main-content">
             <CardsDc/>
         </div>
+
+        <div class="load-btn">
+            <p class="load-more">
+                LOAD MORE
+            </p>
+        </div>
+
+        <h2>
+            CURRENT SERIES
+        </h2>
     </main>
 </template>
 
@@ -31,6 +41,7 @@ export default{
 
 main{
     background-color: $darkBg;
+    position: relative;
 
     div.main-content{
         display: flex;
@@ -38,6 +49,17 @@ main{
         padding: 3rem 0;
     }
 }
+
+h2{
+    position: absolute;
+    left: 5%;
+    bottom: 64%;
+    color: $whiteText;
+    font-size: 1.6rem;
+    background-color: $lightblue;
+    padding: 1rem 1.5rem;
+}
+
 
 h1{
     color: $whiteText;
@@ -48,6 +70,19 @@ div.jumbotron{
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
+}
+
+div.load-btn{
+    justify-content: center;
+    display: flex;
+    color: $whiteText;
+    padding-bottom: 2rem;
+}
+
+div p.load-more{
+    background-color: $lightblue;
+    padding: 1rem 3rem;
+    font-weight: bold;
 }
 
 
