@@ -1,4 +1,5 @@
 <script>
+import CardsDc from './CardsDc.vue';
 
 export default{
     name: 'Appmain',
@@ -22,6 +23,8 @@ export default{
             <h1>
             - - Content goes here - -
             </h1>
+
+            <CardDc/>
         </div>
     </main>
 </template>
