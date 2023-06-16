@@ -1,6 +1,7 @@
 <template lang="">
     <div>
-        
+        <SingleCardDc v-for="card in cardList"
+                        :cardElement="card"/>
     </div>
 </template>
 
@@ -14,7 +15,8 @@ export default {
     },
 
     data(){
-        cardList: [
+        return{
+            cardList: [
                     {
                     "thumb": "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
                     "price": "$19.99",
@@ -88,6 +90,8 @@ export default {
                         "type": "graphic novel",
                     }
                 ]
+        }
+        
     }
 }
 </script>
