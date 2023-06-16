@@ -6,6 +6,7 @@
             {{cardElement.series}}
             </h3>
         </div>
+        
     </article>
     
 
@@ -30,6 +31,7 @@ export default {
     img{
         width: 170px;
         height: 170px;
+        margin-top: 1rem;
     }
 
     div.card-container h3{
@@ -37,7 +39,7 @@ export default {
         color: $whiteText;
         text-transform: uppercase;
         font-weight: 400;
-        font-size: 1rem;
-        text-align: center;
+        font-size: .8rem;
+
     }
 </style>
