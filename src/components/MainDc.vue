@@ -57,7 +57,7 @@ h2{
     color: $whiteText;
     font-size: 1.6rem;
     background-color: $lightblue;
-    padding: 1rem 1.5rem;
+    padding: .8rem 1rem;
 }
 
 
