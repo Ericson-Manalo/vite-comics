@@ -70,35 +70,56 @@ export default{
     </header>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 @use '../styles/partials/mixins' as *;
 @use '../styles/partials/variables' as *;
 
 
-    header{
-        display: flex;
-        justify-content: center;
-    
-        div.header-section{
-            width: 1200px;
-            height: 100px;
-            @include centering(space-between, center);
-        }
-    }
+header{
+    display: flex;
+    justify-content: center;
 
-    div.header-section img{
-        width: 75px;
-        height: 75px;
+    div.header-section{
+        width: 1200px;
+        height: 100px;
+        @include centering(space-between, center);
     }
-
-    nav ul{
-        display: flex;
-    }
-
-    nav ul li:active{
-        cursor:auto;
-        color: $lightblue;
 }
+
+div.header-section img{
+    width: 75px;
+    height: 75px;
+}
+
+nav{
+    height: 100%;
+}
+
+nav ul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+ul li{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    border-bottom: 3px solid white;
+    cursor:pointer;
+}
+
+nav ul li.active{
+    color: $lightblue;
+    border-bottom: 3px solid $lightblue;
+
+}
+
+
+li:active{
+    color: $lightblue;
+    border-bottom: 3px solid $lightblue;
+    }
 
 </style>
